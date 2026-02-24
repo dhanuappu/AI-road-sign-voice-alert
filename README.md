@@ -5,16 +5,19 @@ A computer vision system that detects traffic signs in real-time, translates the
 ## 🌟 Features
 * **Real-Time Detection:** Uses a custom CNN model trained on the GTSRB dataset.
 * **Multi-Language Support:** Translates sign meanings instantly.
-* **Voice Alerts:** Offline text-to-speech engine (`pyttsx3`) for driver warnings.
+* **Voice Alerts:** online text-to-speech engine (`gtts`) for driver warnings.
 * **Safety First:** Ignores detection if a face is obstructing the view.
 
 ## 🛠️ Tech Stack
 * **Core:** Python 3.9+
 * **AI/ML:** TensorFlow (CPU), OpenCV, Keras
 * **Web:** Flask, HTML5, Bootstrap
-* **Audio:** Pygame, pyttsx3
+* **Audio:** Pygame, gtts
 
 ## 🚀 How to Run
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the app: `python app.py`
+
+## dataset used 
+https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign

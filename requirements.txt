@@ -1,6 +1,8 @@
-streamlit==1.31.0
-tensorflow-cpu>=2.16.1
-opencv-python-headless
+Flask
+tensorflow
+opencv-python
 numpy
-gTTS
 Pillow
+gTTS
+pygame
+scikit-learn
